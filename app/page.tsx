@@ -1,14 +1,5 @@
 'use client'
-import { CustomButton } from '@/components/custom-button'
-import {
-	Tabs,
-	Tab,
-	Input,
-	Link,
-	Card,
-	CardBody,
-	CardHeader,
-} from '@nextui-org/react'
+import { Input, Card, CardBody } from '@nextui-org/react'
 import { useRef } from 'react'
 import { Button } from '@nextui-org/react'
 export default function App() {
@@ -91,7 +82,6 @@ export default function App() {
 					</CardBody>
 				</Card>
 			</div>
-			<CustomButton />
 		</div>
 	)
 }
