@@ -27,10 +27,10 @@ export default function App() {
 		})
 	}
 	return (
-		<div>
+		<div className='px-4'>
 			<p className='text-5xl my-10 text-center'>Adminify Backend Form</p>
 			<div className='flex flex-col w-full items-center'>
-				<Card className='max-w-full w-[500px] mx-4'>
+				<Card className='max-w-full w-[500px]'>
 					<CardBody className='overflow-hidden'>
 						<form className='flex flex-col gap-4'>
 							<Input isRequired label='Name' type='text' />
